@@ -127,7 +127,7 @@ def object_detection_function():
                 # Distance in meter
                 distance = ((Known_Width * focalLength) / score) * 0.0254
 
-                print('Distance:', distance)
+                print('Distance (meter):', distance)
 
 
                 # Insert information text to video frame
