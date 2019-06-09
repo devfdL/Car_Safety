@@ -65,21 +65,5 @@ This program give you information like distance between your vehicle and the oth
  Gyro:  X:   Y:   Z:
  ```
 
-# Server details
-This makes use of flask_sockets. Note the use of namespaces which are in accordance with the sensor's name. Sample code:
-
-```python
-@sockets.route('/accelerometer') 
-def echo_socket(ws):
-	 f=open("accelerometer.txt","a")
-	 while True:
-		message = ws.receive()
-		print(message) 
-        	ws.send(message)
-		print>>f,message
-	 f.close()
-```
-The app would then establish a connection to ws://url//accelerometer
-where url is what the user enters (ip address:port) 
 
 
