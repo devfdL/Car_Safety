@@ -63,7 +63,7 @@ This program give you information like distance between your vehicle and the oth
 ```python
 # Input video
 # For using video file
-cap = cv2.VideoCapture('../media/2.mp4')
+cap = cv2.VideoCapture('../media/1.mp4')
 # For using camera
 #cap = cv2.VideoCapture(1)
 
