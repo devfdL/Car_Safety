@@ -43,7 +43,46 @@ This program give you information like distance between your vehicle and the oth
  ```
  cd car_camera
  python3 car_safety.py
+ 
  ```
+
+## car_safety.py Demo
+
+---
+
+<p align="center">
+  <img src="/media/demo.png">
+</p>
+
+---
+
+## How To Change Video Input
+
+* Default
+
+```python
+# Input video
+# For using video file
+cap = cv2.VideoCapture('../media/2.mp4')
+# For using camera
+#cap = cv2.VideoCapture(1)
+
+```
+
+* Use camera
+
+```python
+# Input video
+# For using video file
+#cap = cv2.VideoCapture('../media/2.mp4')
+# For using camera
+"""
+my laptop have 2 cam, so i use 'cv2.VideoCapture(1)' to use rear camera,
+if your laptop have 1 camera change it to 'cv2.VideoCapture(0)'
+"""
+cap = cv2.VideoCapture(1)
+
+```
 
 ## To Run the sensor 
  ```
@@ -54,7 +93,7 @@ This program give you information like distance between your vehicle and the oth
 
  # for gui (book_id, acceleration_x, acceleration_y, acceleration_z, gyro_x, gyro_y, gyro_z)
  # for book_id its just axample 
- 
+
  python3 gui.py
 
  ```
