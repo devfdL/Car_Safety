@@ -74,7 +74,7 @@ cap = cv2.VideoCapture('../media/1.mp4')
 ```python
 # Input video
 # For using video file
-#cap = cv2.VideoCapture('../media/2.mp4')
+#cap = cv2.VideoCapture('../media/1.mp4')
 # For using camera
 """
 my laptop have 2 cam, so i use 'cv2.VideoCapture(1)' to use rear camera,
