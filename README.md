@@ -54,6 +54,7 @@ This program give you information like distance between your vehicle and the oth
 
  # for gui (book_id, acceleration_x, acceleration_y, acceleration_z, gyro_x, gyro_y, gyro_z)
  # for book_id its just axample 
+ 
  python3 gui.py
 
  ```
@@ -69,8 +70,9 @@ This program give you information like distance between your vehicle and the oth
 ---
 
 ## Sensor Format
- sensor.py
  ```
+ @ sensor.py
+
  Acceleration:  X:   Y:   Z: 
  Gyro:  X:   Y:   Z:
  ```
