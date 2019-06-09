@@ -58,8 +58,8 @@ This program give you information like distance between your vehicle and the oth
 ```
  ...
 
- Distance (meter): 5.3772297  5.9687967 10.231259  11.89317
- Distance (meter): 5.3772297  5.9687967 10.231259  11.89317
+ Distance (meter): 5.3772297  5.9687967 10.231259  
+ Distance (meter): 5.3772297  5.9687967 10.231259  
  
 ```
 
