@@ -48,14 +48,13 @@ This program give you information like distance between your vehicle and the oth
 
 ## car_safety.py Demo
 
----
-
 <p align="center">
   <img src="/media/demo.png">
 </p>
 
 ---
 
+* Terminal
 ```
  ...
 
