@@ -134,7 +134,7 @@ def object_detection_function():
                 font = cv2.FONT_HERSHEY_SIMPLEX
                 
 
-                cv2.imshow('vehicle detection', input_frame)
+                cv2.imshow('car safety', input_frame)
 
                 if cv2.waitKey(1) & 0xFF == ord('q'):
                     break
