@@ -18,8 +18,11 @@ from utils import label_map_util
 from utils import visualization_utils as vis_util
 
 
-# input video
+# Input video
+# For using video file
 cap = cv2.VideoCapture('../media/2.mp4')
+# For using camera
+#cap = cv2.VideoCapture(1)
 
 # Model used
 # Download Model
@@ -79,7 +82,7 @@ def object_detection_function():
             detection_classes = detection_graph.get_tensor_by_name('detection_classes:0')
             num_detections = detection_graph.get_tensor_by_name('num_detections:0')
 
-            # for all the frames that are extracted from input video
+            # For all the frames that are extracted from input video
             while cap.isOpened():
                 (ret, frame) = cap.read()
 
@@ -112,7 +115,7 @@ def object_detection_function():
                     line_thickness=4,
                     )
 
-                # calculate car distance
+                # Calculate car distance
                 Known_Distance = 1.0
 
                 Known_Width = 75.0
@@ -121,13 +124,13 @@ def object_detection_function():
 
                 score = scores / 100.0 # because scores in percent, scores must devide by 100
 
-                # distance in meter
+                # Distance in meter
                 distance = ((Known_Width * focalLength) / score) * 0.0254
 
                 print('Distance:', distance)
 
 
-                # insert information text to video frame
+                # Insert information text to video frame
                 font = cv2.FONT_HERSHEY_SIMPLEX
                 
 
