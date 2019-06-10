@@ -93,7 +93,7 @@ cap = cv2.VideoCapture(1)
 
 ## To Run speedometer 
 
-*speed_raspberry.py 
+* speed_raspberry.py 
 can only run on raspberry pi 3.
 
  ```
@@ -103,7 +103,7 @@ can only run on raspberry pi 3.
 
  ```
 
-*speed_android.py 
+* speed_android.py 
 can only run on android.
 
  ```
