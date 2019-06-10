@@ -46,8 +46,8 @@ if __name__ == '__main__':
         while True:
             time.sleep(1)
             if gpsc.fix.speed < mph :
-                print("speed is under 15 mph",gpsc.fix.speed)
-                print(mph)
+                #print("speed is under 15 mph",gpsc.fix.speed)
+                #print(mph)
                 GPIO.output(40,GPIO.HIGH)
                 time.sleep(1)
                 GPIO.output(40,GPIO.LOW)
