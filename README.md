@@ -91,6 +91,28 @@ cap = cv2.VideoCapture(1)
 
 ```
 
+## To Run speedometer 
+
+*speed_raspberry.py 
+can only run on raspberry pi 3.
+
+ ```
+ # in car_camera directory
+
+ python3 speed_raspberry.py
+
+ ```
+
+*speed_android.py 
+can only run on android.
+
+ ```
+ # in car_camera directory
+
+ python3 speed_android.py
+
+ ```
+
 ## To Run the sensor 
 sensor.py can only run on raspberry pi 3.
 
