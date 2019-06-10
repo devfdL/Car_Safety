@@ -58,8 +58,8 @@ This program give you information like distance between your vehicle and the oth
 ```
  ...
 
- Distance (meter): 5.3772297  5.9687967 10.231259  
- Distance (meter): 5.3772297  5.9687967 10.231259  
+ Distance (meter): 5.3772297  5.9687967 10.231259  11.89317
+ Distance (meter): 5.3772297  5.9687967 10.231259  11.89317
  
 ```
 
@@ -92,6 +92,8 @@ cap = cv2.VideoCapture(1)
 ```
 
 ## To Run the sensor 
+sensor.py can only run on raspberry pi 3.
+
  ```
  # in Car_Safety directory
 
